@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PowerPlantCodingChallenge/PowerPlantCodingChallenge.csproj" />
+  <Project Path="PowerPlantCodingChallenge.Tests/PowerPlantCodingChallenge.Tests.csproj" />
+</Solution>

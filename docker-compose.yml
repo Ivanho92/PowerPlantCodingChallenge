@@ -1,0 +1,13 @@
+services:
+  productionplan-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: 8888
+      LOG_PATH: /app/logs
+    volumes:
+      - ./PowerPlantCodingChallenge/logs:/app/logs
